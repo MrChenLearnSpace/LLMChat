@@ -17,7 +17,7 @@ public class Message {
 
 public class OpenAIRequest {
     [JsonProperty("model")]
-    public string Model { get; set; } = "gemini-2.5-flash"; // 代理服务器可能需要这个字段，可以随便填一个
+    public string Model { get; set; } = "default-model"; // 代理服务器可能需要这个字段，可以随便填一个gemini-2.5-flash
 
     [JsonProperty("messages")]
     public List<Message> Messages { get; set; } = new List<Message>();
@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
     public InputField input_text;
 
   
-    string m_Model = "gemini-2.5-flash"; // 代理服务器可能需要这个字段，可以随便填一个
+    string m_Model = "default-model"; // 代理服务器可能需要这个字段，可以随便填一个
 
     List<Message> currentMessage = new List<Message>();
     // Start is called before the first frame update

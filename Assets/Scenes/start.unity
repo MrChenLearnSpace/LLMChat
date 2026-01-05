@@ -884,7 +884,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1183195922}
   m_HandleRect: {fileID: 1183195921}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1973,8 +1973,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d184007f5d7e84497a7fce6dfd49fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  host: 
-  apiKey: 
+  host: http://10.1.1.226:10505/v1/chat/completions
+  apiKey: aa1234567
   content_obj: {fileID: 488094852}
   text_Prefabs: {fileID: 4899662489002401131, guid: 28b6fa166bd2c2545907ba90f9a92236,
     type: 3}
