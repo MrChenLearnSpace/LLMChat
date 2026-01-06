@@ -66,7 +66,7 @@ namespace ChatApi {
                             // 建议使用 "system" 角色，这样AI知道这是背景信息
                             currentMessage.Add(new Message { Role = "system", Content = "以下是之前的对话总结: " + summaryText });
 
-                            Debug.Log("历史对话已总结: " + summaryText);
+                           // Debug.Log("历史对话已总结: " + summaryText);
                         }
                     }
                 }
